@@ -5,6 +5,7 @@ import Lines from "../../animations/animated-lines/Animatedlines";
 import Rlines from "../../animations/animated-rlines/Animatedrlines";
 import Banner from "./components/Banner";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
       <hr className="opacity-25 my-0" />
       <Banner />
       <Skills />
+      <Education />
+      <hr className="opacity-25 my-0" />
     </div>
   );
 };

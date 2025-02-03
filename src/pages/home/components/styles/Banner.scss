@@ -1,14 +1,5 @@
 .textResponsive2 {
     font-size: 4.2rem;
-    // animation-name: autoBLurAnimation;
-    // animation-duration: 6s;
-    // animation-iteration-count: 1;
-    // animation-timing-function:  ease-in-out;
-    // animation-play-state: paused;
-    // animation-play-state: running;
-    // animation: autoBLurAnimation 1s ease-out forwards;
-    // animation: autoBLurAnimation ease-out both;
-    // animation-timeline: auto();  
 
     @media (min-width: 576px) { // sm
       font-size: 4.8rem;
@@ -35,25 +26,6 @@
       padding-top: 25px;
       padding-bottom: 25px;
     }
-
-    // &:hover {
-    //   animation-play-state: running;
-    // }
-
-    // @keyframes autoBLurAnimation {
-    //     0% {
-    //       opacity: 0;
-    //       transform: translateX(-400px); /* Başlangıçta sola kaymış */
-    //     }
-    //     20% {
-    //       opacity: 1;
-    //       transform: translateX(0); /* Yavaşça yerine oturacak */
-    //     }
-    //     100% {
-    //       opacity: 1;
-    //       transform: translateX(0); /* Sabit konumda kalacak */
-    //     }
-    //   }
   }
 
 
@@ -82,10 +54,6 @@
     opacity: 0;
     transform: translateX(-100%); /* Başlangıçta solda */
   }
-  // 50% {
-  //   opacity: 1;
-  //   transform: translateX(0); /* Sahneye ulaşıyor */
-  // }
   100% {
     opacity: 1;
     transform: translateX(0); /* Sabit kalıyor */
@@ -104,10 +72,6 @@
     opacity: 1;
     transform: translateX(0); /* Sahnenin ortasında */
   }
-  // 50% {
-  //   opacity: 0.5;
-  //   transform: translateX(-50%); /* Sağa doğru kayıyor */
-  // }
   100% {
     opacity: 0;
     transform: translateX(-100%); /* Tamamen kayboluyor */

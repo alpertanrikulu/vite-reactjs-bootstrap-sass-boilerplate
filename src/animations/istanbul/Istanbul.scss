@@ -1,0 +1,128 @@
+.street {
+    position: relative;
+    height: 500px; 
+    width: 100%;
+}
+
+.bikeframediv {
+    position: absolute;
+    left: 45%;
+    bottom: 18%;
+    transform: scale(1.5); /* 2x büyütme */
+    transform-origin: bottom left; /* Bisikletin sol alt köşesini sabit tutarak büyüt */
+}
+
+.bikebwheel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: arkaTeker 5s infinite linear;
+}
+
+.bikeframe {
+    position: absolute;
+    left: 17.86px;
+    bottom: 17.86px;
+}
+
+.bikefwheel {
+    position: absolute;
+    left: 54.76px;
+    bottom: 0;
+    animation: onTeker 5s infinite linear;
+}
+
+@keyframes onTeker {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes arkaTeker {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.umbrella {
+    position: absolute;
+    left: 37px;
+    bottom: 130px;
+    animation: umbrellaAnimation 5s infinite ease-in-out;
+}
+
+@keyframes umbrellaAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.sittingcat {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+.lookingcat {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+
+.rightlamb {
+    position: absolute;
+    right: 7%;
+    bottom: 0;
+    width: 100px;
+}
+
+.lambar {
+    position: absolute;
+    left: 90%;
+    bottom: 0;
+}
+
+.lambal {
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+}
+
+.galatacat {
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+    width: 300px;
+}
+
+.galata {
+    position: absolute;
+    left: 0%;
+    bottom: 60%;
+}
+
+
+.walkingcat {
+    position: absolute;
+    left: 81%;
+    bottom: 50px;
+}
+
+.ip {
+    position: absolute;
+    left: 45%;
+    bottom: 14%;
+    width: 300px;
+}

@@ -6,8 +6,8 @@ import "./styles/Hello.scss";
 
 const Hello = () => {
   return (
-    <div className="position-relative container px-5">
-      <div className="row text-center text-md-start">
+    <div className="position-relative px-5">
+      <div className="row text-center text-md-start px-5">
         <div className="col-12 col-md-6 col-xl-6 mt-5">
           <div className="row">
             <div className="col-12 col-lg-6 order-1 order-lg-2 ">

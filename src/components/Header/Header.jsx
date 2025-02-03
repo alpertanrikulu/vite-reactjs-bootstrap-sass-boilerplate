@@ -26,7 +26,7 @@ const Header = () => {
         scrolled && "frostedBg"
       }`}
     >
-      <div className="container-fluid container">
+      <div className="container-fluid px-5">
         <a className="" href="#">
           <img src={Logo} alt="My homepage logo" />
         </a>
