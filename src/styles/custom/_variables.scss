@@ -1,1 +1,38 @@
-$orange: rgb(229, 149, 0);
+$navbar-light-color: rgba(255, 255, 255, 0.7);
+$navbar-light-hover-color: rgba(255, 255, 255, 1);
+$navbar-light-active-color: rgba(255, 255, 255, 1);
+$nav-link-font-size: 1.5rem;
+$dropdown-bg: rgba(251, 218, 0, 0.9);
+$dropdown-link-color:  black;
+$dropdown-spacer: 0.5rem;
+$dropdown-border-radius: 0.75rem;
+$dropdown-font-size: 1.1rem;
+$navbar-light-icon-color: rgba(255, 255, 255, 1);
+$navbar-light-toggler-border-color: rgba(255, 255, 255, 1);
+$navbar-padding-y: 1rem;
+
+
+
+$container-max-widths: (
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1152px,
+  xxl: 1440px
+);
+
+$zindex-levels: (
+  n6: -6,
+  n5: -5,
+  n4: -4,
+  n3: -3,
+  n2: -2,
+  n1: -1,
+  0: 0,
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4,
+  5: 5,
+  6: 6
+);
