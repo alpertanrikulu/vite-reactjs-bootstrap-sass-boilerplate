@@ -5,6 +5,7 @@ import Lines from "../../animations/animated-lines/Animatedlines";
 import Rlines from "../../animations/animated-rlines/Animatedrlines";
 import Banner from "./components/Banner";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 import Education from "./components/Education";
 
 const Home = () => {
@@ -17,8 +18,11 @@ const Home = () => {
       <hr className="opacity-25 my-0" />
       <Banner />
       <Skills />
-      <Education />
       <hr className="opacity-25 my-0" />
+      <Experience />
+      <hr className="opacity-25 my-0" />
+      <Education />
+      {/* <hr className="opacity-25 my-0" /> */}
     </div>
   );
 };

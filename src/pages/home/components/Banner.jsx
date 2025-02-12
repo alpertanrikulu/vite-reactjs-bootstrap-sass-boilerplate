@@ -88,8 +88,9 @@ const Banner = () => {
           </div>
         </div>
         <div className="row" style={{ animationDelay: "3s" }}>
-          <div className="col-md-6 order-2 order-md-1">
+          <div className="col-md-6 order-2 order-md-1 d-flex justify-content-center align-items-center">
             <div
+              className="position-absolute z-6"
               style={{
                 width: "350px",
                 height: "150px",

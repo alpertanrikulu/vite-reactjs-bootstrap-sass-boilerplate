@@ -14,7 +14,7 @@ import Cablsestone from "./svg/cablestone.svg";
 
 const Istanbul = () => {
   return (
-    <div className="street">
+    <div className="street z-n3">
       <div className="bikeframediv position-absolute z-n3 opacity-25">
         <img className="bikebwheel" src={Bikebwheel} alt="" />
         <img className="bikeframe" src={Bikeframe} alt="" />

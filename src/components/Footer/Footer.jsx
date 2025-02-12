@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Footer.scss";
 import Istanbul from "../../animations/istanbul/Istanbul";
 import Darrow from "../../assets/svg/darrow.svg";
+import Contact from "../../pages/home/components/Contact";
 
 const Footer = () => {
   const containerRef1 = useRef(null);
@@ -33,6 +34,9 @@ const Footer = () => {
 
   return (
     <div className="Footer position-relative">
+      <div className="d-none">
+        <Contact />
+      </div>
       <div className="z-n1" style={{ minHeight: "300px" }}>
         <Istanbul />
       </div>

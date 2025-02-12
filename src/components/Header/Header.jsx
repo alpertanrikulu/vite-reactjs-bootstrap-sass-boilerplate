@@ -58,7 +58,7 @@ const Header = () => {
               >
                 About me
               </a>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu mt-3" style={{ zIndex: "1100" }}>
                 <li>
                   <a className="dropdown-item" href="#summary">
                     Summary
@@ -86,10 +86,15 @@ const Header = () => {
               >
                 My apps
               </a>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu mt-3">
                 <li>
                   <a className="dropdown-item" href="#">
                     Olric's Word
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    My blog
                   </a>
                 </li>
               </ul>
