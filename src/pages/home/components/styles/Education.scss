@@ -16,6 +16,7 @@
 .education-card {
     width: 120px;
     background-size: cover;
+    background-position: center;
     cursor: pointer;
     overflow: hidden;
     border-radius: 2rem;
@@ -85,14 +86,16 @@ input:checked + label .education-description {
 }
 
 .education-card[for="c1"] {
-    background-image: url('../../../../assets/images/Uludag.jpg');
+    background-image: url('../../../../assets/images/Uludagd.webp');
+    background-position: center;
 }
 .education-card[for="c2"] {
-    background-image: url('../../../../assets/images/gebze.jpg');
+    background-image: url('../../../../assets/images/gebzed.webp');
+    background-position: center;
 }
-.education-card[for="c3"] {
-    background-image: url('./img3.jpeg');
-}
-.education-card[for="c4"] {
-    background-image: url('./img4.jpeg');
-}
+// .education-card[for="c3"] {
+//     background-image: url('./img3.jpeg');
+// }
+// .education-card[for="c4"] {
+//     background-image: url('./img4.jpeg');
+// }

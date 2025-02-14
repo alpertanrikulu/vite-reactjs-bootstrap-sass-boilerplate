@@ -11,6 +11,7 @@ import Lookingcat from "./svg/bakankedi.svg";
 import Umbrella from "./svg/semsiye.svg";
 import Galata from "./svg/galataa.svg";
 import Cablsestone from "./svg/cablestone.svg";
+import Hazerfen from "./svg/hazerfen.svg";
 
 const Istanbul = () => {
   return (
@@ -23,8 +24,8 @@ const Istanbul = () => {
       </div>
       <div className="galatacat">
         <img className="galata opacity-25" src={Galata} alt="" />
-        <img className="walkingcat opacity-25" src={Walkingcat} alt="" />
       </div>
+      <img className="walkingcat opacity-25" src={Walkingcat} alt="" />
       <div className="rightlamb">
         <img className="sittingcat opacity-25" src={Sittingcat} alt="" />
         <img className="lookingcat opacity-25" src={Lookingcat} alt="" />
@@ -32,6 +33,7 @@ const Istanbul = () => {
       </div>
       <img className="lambal opacity-25" src={Lamba} alt="" />
       <hr className="ip opacity-25" />
+      <img className="hazerfen" src={Hazerfen} alt="hazerfen ahmet çelebi" />
     </div>
   );
 };

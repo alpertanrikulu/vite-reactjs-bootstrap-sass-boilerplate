@@ -57,6 +57,7 @@ const Universe = () => {
             zIndex: 1011, // En arka plana yerleştirir
           }}
         ></pointer-particles>
+
         <div className="star-field">
           <div className="layer"></div>
           <div className="layer"></div>

@@ -5,6 +5,7 @@ import "./styles/Skills.scss";
 
 // import "../../../animations/pointer/pointer";
 import Universe from "../../../animations/universe/Universe";
+import Pangea from "../../../animations/pangea/Pangea";
 
 const Skills = () => {
   // const popoverRef = useRef(null);
@@ -167,6 +168,7 @@ const Skills = () => {
       <Universe />
       {/* <h2 className="text-center display-3 my-5">Skills</h2> */}
       <hr className="my-0 opacity-25 border-2" />
+      <Pangea />
       <div
         className={`container d-flex flex-column align-items-center skillOpacity py-4 ${
           isVisible3 ? "journeyTtitleIn" : "journeyTtitleOut"
@@ -233,7 +235,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <hr className="my-0 opacity-25 border-2" />
+      {/* <hr className="my-0 opacity-25 border-2" /> */}
       <div
         className={`container d-flex flex-column align-items-center skillOpacity py-4 ${
           isVisible4 ? "journeyTtitleIn" : "journeyTtitleOut"
@@ -300,7 +302,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <hr className="my-0 opacity-25 border-2" />
+      {/* <hr className="my-0 opacity-25 border-2" /> */}
       <div
         className={`container d-flex flex-column align-items-center skillOpacity py-4 ${
           isVisible5 ? "journeyTtitleIn" : "journeyTtitleOut"

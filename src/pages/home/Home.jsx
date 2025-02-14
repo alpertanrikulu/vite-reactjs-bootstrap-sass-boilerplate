@@ -19,8 +19,6 @@ const Home = () => {
       <Banner />
       <Skills />
       <hr className="opacity-25 my-0" />
-      <Experience />
-      <hr className="opacity-25 my-0" />
       <Education />
       {/* <hr className="opacity-25 my-0" /> */}
     </div>
