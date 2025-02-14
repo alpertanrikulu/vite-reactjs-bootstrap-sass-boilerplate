@@ -14,7 +14,7 @@ const Home = () => {
       <div style={{ height: "120px", width: "100wv" }}></div>
       <Hello />
       <Lines />
-      <Rlines />
+      {/* <Rlines /> */}
       <hr className="opacity-25 my-0" />
       <Banner />
       <Skills />

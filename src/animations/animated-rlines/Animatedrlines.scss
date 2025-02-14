@@ -1,16 +1,10 @@
 
-.animatedRLinesDiv {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    }
 
 .animatedRLines {
     position: absolute;
-    top: -100%;
-    left: 15%;
-    background: none;
-    opacity: 0.5;
+    top: 100%;
+    left: 50%;
+    z-index: -1100;
     animation: animatedRLines 8s ease-in-out infinite;
     
     @keyframes animatedRLines {

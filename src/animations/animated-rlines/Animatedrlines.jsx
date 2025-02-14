@@ -4,9 +4,9 @@ import Rlines from "../../assets/svg/rlines.svg";
 
 const Animatedrlines = () => {
   return (
-    <div className="animatedRLinesDiv d-none d-lg-block position-absolute z-n5 opacity-25">
+    <div className="animatedRLinesDiv d-lg-block position-absolute z-n5 opacity-25">
       <img
-        className="animatedRLines position-absolute z-n5 "
+        className="animatedRLines position-absolute"
         src={Rlines}
         alt="animated lines"
       />

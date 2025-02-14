@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./styles/Banner.scss";
+import Animatedrlines from "../../../animations/animated-rlines/Animatedrlines";
 
 const Banner = () => {
   const containerRef1 = useRef(null);
@@ -56,6 +57,7 @@ const Banner = () => {
       style={{ minHeight: "125vh", backgroundColor: "rgb(29, 38, 89)" }}
     >
       <div className="container">
+        <Animatedrlines />
         <div className="row">
           <div ref={containerRef1} className="col-lg-8 order-2 order-lg-1">
             <h2
@@ -68,6 +70,7 @@ const Banner = () => {
           </div>
           <div className="col-lg-4 order-1 order-lg-2 d-flex justify-content-center align-items-center pt-5">
             <div
+              className="z-n2"
               style={{
                 width: "350px",
                 height: "150px",
@@ -90,7 +93,6 @@ const Banner = () => {
         <div className="row" style={{ animationDelay: "3s" }}>
           <div className="col-md-6 order-2 order-md-1 d-flex justify-content-center align-items-center">
             <div
-              className="position-absolute z-6"
               style={{
                 width: "350px",
                 height: "150px",
